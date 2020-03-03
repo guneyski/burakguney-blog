@@ -9,7 +9,7 @@ const Nav = () => (
       <div className="container">
         <ul className="navbar-nav ml-5">
           <li className="nav-item ml-5">
-            <Link href="/index">
+            <Link href="/">
               <a className="nav-link active">
                 <FontAwesomeIcon
                   icon={faHome}
