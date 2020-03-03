@@ -175,7 +175,7 @@ const Home = ({ posts }) => (
         background: #e9ecef;
       }
       .img {
-        width: 300x;
+        width: 75%;
         height: auto;
       }
       .imgburak {

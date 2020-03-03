@@ -120,7 +120,7 @@ const BlogPost = ({ post }) => (
       * {
       }
       .img {
-        width: 400px;
+        width: 75%;
         height: auto;
       }
       .avatar {
