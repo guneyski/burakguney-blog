@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPortrait, faHome } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Nav = () => (
-  <div>
+  <div className="mb-3">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <ul className="navbar-nav ml-5">
           <li className="nav-item ml-5">
-            <Link href="http://burakguney-blog.herokuapp.com">
+            <Link href="/">
               <a className="nav-link active">
                 <FontAwesomeIcon
                   icon={faHome}
