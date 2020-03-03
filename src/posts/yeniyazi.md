@@ -1,1 +1,1 @@
-### EN GÜNCEL
+Edirne'nin Uzunköprü ilçesinde 23 Ağustos 1995'te doğdum. Bilgisayarla tanışmam 2000-2001 senelerine denk geliyor, babamın iş yerinde alınmıştı o zaman ilk bilgisayar daha evde bile yoktu 5-6 yaşındaydım belki ama hala hatırlarım dükkanın bodrum katına indiğimde abimle kuzenim hayatımda ilk defa gördüğüm bir aletin başında "Doom" dedikleri oyunu oynuyorlardı. İzlerken baya bir korkmuştum açıkçası bilenler bilir nasıl bir oyun olduğunu o yaşta normal :)

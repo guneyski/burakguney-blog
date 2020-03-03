@@ -1,9 +1,9 @@
 export const getPosts = () => {
   return [
     {
-      title: "Burak Güney",
-      slug: "burakguney",
-      img: " ",
+      title: "Hakkımda",
+      slug: "hakkimda",
+      img: "burakguney1.jpg",
       details: require("./posts/yeniyazi.md").default,
       date: "3 Mart 2020"
     },

@@ -155,11 +155,9 @@ const Home = ({ posts }) => (
             </Link>
           </div>
           <div className="col-lg-6 text-center">
-            <Link href="/">
-              <a className="text-light">
-                <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon>güneyski
-              </a>
-            </Link>
+            <a className="text-light" href="/">
+              <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon>burakguney
+            </a>
           </div>
         </div>
       </div>
