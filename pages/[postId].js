@@ -109,7 +109,7 @@ const BlogPost = ({ post }) => (
             </Link>
           </div>
           <div className="col-lg-6 text-center">
-            <Link href="https://burakguney-blog.herokuapp.com/">
+            <Link href="/">
               <a className="text-light">
                 <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon>güneyski
               </a>
