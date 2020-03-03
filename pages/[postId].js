@@ -70,9 +70,9 @@ const BlogPost = ({ post }) => (
                   </a>
                 </Link>
               </h3>
-              <h5 className="card-text">
+              <p className="card-text">
                 <ReactMarkdown source={post.details} />
-              </h5>
+              </p>
             </div>
           </div>
         </div>
