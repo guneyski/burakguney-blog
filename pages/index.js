@@ -47,9 +47,9 @@ const Home = ({ posts }) => (
         crossorigin="anonymous"
       ></script>
     </Head>
-    <div className="sticky">
-      <Nav></Nav>
-    </div>
+
+    <Nav></Nav>
+
     <div className="container">
       <div className="row">
         <div className="col-md-3 color">

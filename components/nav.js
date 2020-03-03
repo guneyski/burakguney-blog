@@ -8,7 +8,7 @@ const Nav = () => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <ul className="navbar-nav ml-5">
-          <li onKeyUp={() => location.reload()} className="nav-item ml-5">
+          <li className="nav-item ml-5">
             <Link href="/">
               <a className="nav-link active">
                 <FontAwesomeIcon

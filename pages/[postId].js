@@ -44,9 +44,9 @@ const BlogPost = ({ post }) => (
         crossorigin="anonymous"
       ></script>
     </Head>
-    <div className="sticky">
-      <Nav></Nav>
-    </div>
+
+    <Nav></Nav>
+
     <div className="container">
       <div className="row">
         <div className="col-md-12 p-0">
