@@ -1,6 +1,7 @@
 import fetch from "isomorphic-unfetch";
 import React from "react";
 import Head from "next/head";
+import Nav from "../components/nav";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
