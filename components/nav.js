@@ -9,15 +9,16 @@ const Nav = () => (
       <div className="container">
         <ul className="navbar-nav ml-5">
           <li className="nav-item ml-5">
-            <a className="nav-link active">
-              <FontAwesomeIcon
-                href="/"
-                icon={faHome}
-                size="2x"
-                className="mr-1"
-              ></FontAwesomeIcon>
-              Ana Sayfa
-            </a>
+            <Link href="/">
+              <a className="nav-link active">
+                <FontAwesomeIcon
+                  icon={faHome}
+                  size="2x"
+                  className="mr-1"
+                ></FontAwesomeIcon>
+                Ana Sayfa
+              </a>
+            </Link>
           </li>
         </ul>
         <button
@@ -35,7 +36,7 @@ const Nav = () => (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto mr-5">
             <li className="nav-item mr-5">
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/burak-g%C3%BCney-2889b8134/">
                 <a className="nav-link">
                   <FontAwesomeIcon
                     icon={faPortrait}
