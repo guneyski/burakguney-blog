@@ -9,14 +9,14 @@ export const getPosts = () => {
     },
     {
       title: "Burak Güney",
-      slug: "burakguney",
+      slug: "burakguney2",
       img: " ",
       details: require("./posts/2.md").default,
       date: "3 Mart 2020"
     },
     {
       title: "Burak Güney",
-      slug: "burakguney",
+      slug: "burakguney3",
       img: " ",
       details: require("./posts/3.md").default,
       date: "3 Mart 2020"
