@@ -9,16 +9,14 @@ const Nav = () => (
       <div className="container">
         <ul className="navbar-nav ml-5">
           <li className="nav-item ml-5">
-            <Link href="/">
-              <a className="nav-link active">
-                <FontAwesomeIcon
-                  icon={faHome}
-                  size="2x"
-                  className="mr-1"
-                ></FontAwesomeIcon>
-                Ana Sayfa
-              </a>
-            </Link>
+            <a className="nav-link active" href="/">
+              <FontAwesomeIcon
+                icon={faHome}
+                size="2x"
+                className="mr-1"
+              ></FontAwesomeIcon>
+              Ana Sayfa
+            </a>
           </li>
         </ul>
         <button
