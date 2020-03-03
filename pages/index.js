@@ -1,14 +1,12 @@
 import fetch from "isomorphic-unfetch";
 import React from "react";
 import Head from "next/head";
-import HomeNav from "../components/homeNav";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 import {
   faGithub,
-  faTwitter,
   faLinkedin,
   faReact,
   faBootstrap,
@@ -49,7 +47,7 @@ const Home = ({ posts }) => (
       ></script>
     </Head>
     <div className="sticky">
-      <HomeNav></HomeNav>
+      <Nav></Nav>
     </div>
     <div className="container">
       <div className="row">
