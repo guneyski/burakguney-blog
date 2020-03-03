@@ -90,7 +90,7 @@ const Home = ({ posts }) => (
         <div className="col-md-9 p-0">
           <div className="row m-0">
             {posts.map(post => (
-              <div className="col-lg-12">
+              <div className="col-lg-6">
                 <div className="card mb-2 rounded bg-light">
                   <div>
                     <img
