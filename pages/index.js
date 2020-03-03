@@ -113,9 +113,14 @@ const Home = ({ posts }) => (
                         </a>
                       </Link>
                     </h3>
-                    <h5 className="card-text">
-                      <ReactMarkdown source={post.details} />
-                    </h5>
+                    <h6 className="card-text">
+                      {post.entrance}
+                      <Link href={post.slug}>
+                        <a className="card-text nav-link text-secondary">
+                          daha fazla oku
+                        </a>
+                      </Link>
+                    </h6>
                   </div>
                 </div>
               </div>
