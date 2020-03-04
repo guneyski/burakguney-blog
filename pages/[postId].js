@@ -49,8 +49,8 @@ const BlogPost = ({ post }) => (
     </div>
     <div className="container">
       <div className="row">
-        <div className="col-md-3"></div>
-        <div className="col-md-6 p-0">
+        <div className="col-md-2"></div>
+        <div className="col-md-8 p-0">
           <div className="card shadow mt-2 mb-2 rounded bg-light">
             <div>
               <img
@@ -77,7 +77,7 @@ const BlogPost = ({ post }) => (
             </div>
           </div>
         </div>
-        <div className="col-md-3"></div>
+        <div className="col-md-2"></div>
       </div>
     </div>
     <div className="p-3 bg-dark text-light">
