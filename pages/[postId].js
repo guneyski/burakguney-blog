@@ -14,7 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const BlogPost = ({ post }) => (
-  <div>
+  <div className="color">
     <Head>
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
@@ -50,8 +50,8 @@ const BlogPost = ({ post }) => (
     <div className="container">
       <div className="row">
         <div className="col-md-2"></div>
-        <div className="col-md-8 p-0">
-          <div className="card shadow mt-2 mb-2 rounded bg-light">
+        <div className="col-md-8 p-1">
+          <div className="shadow mb-2 rounded bg-light">
             <div>
               <img
                 src="burakguney.jpg"
@@ -121,6 +121,9 @@ const BlogPost = ({ post }) => (
     <style jsx>{`
       * {
       }
+      .color {
+        background: #e9ecef;
+      }
       .img {
         width: 100%;
         height: auto;
@@ -130,6 +133,12 @@ const BlogPost = ({ post }) => (
         width: 50px;
         height: 50px;
         border-radius: 50%;
+      }
+      div.sticky {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        z-index: 1;
       }
     `}</style>
   </div>

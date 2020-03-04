@@ -1,8 +1,8 @@
-### İşletim Sistemi Ne İş Yapar?
+#### İşletim Sistemi Ne İş Yapar?
 
 İşletim sistemi bilgisayar donanımını yöneten bir programdır. Kullanıcı ile bilgisayar donanımı arasında aracı olarak görev yapar.
 
-**Bir bilgisyar sistemi genel olarak 4 bileşene ayrılır:**
+**Bir bilgisayar sistemi genel olarak 4 bileşene ayrılır:**
 
 - Donanım
 - İşletim sistemi

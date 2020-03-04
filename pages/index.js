@@ -47,51 +47,51 @@ const Home = ({ posts }) => (
         crossorigin="anonymous"
       ></script>
     </Head>
+    <div className="row">
+      <div className="col-md-12 color">
+        <div className="color text-dark">
+          <div className="card-body">
+            <div className="card-title text-center">
+              <Link href="/hakkimda">
+                <a>
+                  <img
+                    src="burakguney.jpg"
+                    className="card-img-top imgburak shadow rounded-circle"
+                  ></img>
+                </a>
+              </Link>
+            </div>
+            <h3 className="title text-center font-weight-bold">Burak Güney</h3>
+            <p className="title text-center font-italic">Web Developer</p>
+            <div className="text-center">
+              <Link href="https://www.linkedin.com/in/burak-g%C3%BCney-2889b8134/">
+                <a className="d-inline text-dark" target="_blank">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    size="2x"
+                  ></FontAwesomeIcon>
+                </a>
+              </Link>
+              <Link href="https://github.com/guneyski">
+                <a className="d-inline text-dark ml-3" target="_blank">
+                  <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div className="sticky">
       <Nav></Nav>
     </div>
     <div className="container">
       <div className="row">
-        <div className="col-md-3 color">
-          <div className="card rounded bg-dark shadow text-light mb-2">
-            <div className="card-body">
-              <div className="card-title text-center">
-                <img
-                  src="burakguney.jpg"
-                  className="card-img-top imgburak shadow rounded-circle"
-                ></img>
-              </div>
-              <h3 className="title text-center font-weight-bold">
-                Burak Güney
-              </h3>
-              <p className="title text-center font-italic">Web Developer</p>
-              <div className="text-center">
-                <Link href="https://www.linkedin.com/in/burak-g%C3%BCney-2889b8134/">
-                  <a className="d-inline text-light" target="_blank">
-                    <FontAwesomeIcon
-                      icon={faLinkedin}
-                      size="2x"
-                    ></FontAwesomeIcon>
-                  </a>
-                </Link>
-                <Link href="https://github.com/guneyski">
-                  <a className="d-inline text-light ml-3" target="_blank">
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      size="2x"
-                    ></FontAwesomeIcon>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-9 p-0">
+        <div className="col-md-12 p-0">
           <div className="row m-0">
             {posts.map(post => (
-              <div className="col-lg-6">
-                <div className="card mb-2 rounded bg-light">
+              <div className="col-lg-4 p-1">
+                <div className="mb-2 rounded shadow bg-light">
                   <div>
                     <img
                       src="burakguney.jpg"
@@ -102,7 +102,6 @@ const Home = ({ posts }) => (
                       {post.date}
                     </h6>
                   </div>
-                  <div className="text-right"></div>
 
                   <div className="card-body">
                     <img src={post.img} className="img rounded"></img>
@@ -169,8 +168,6 @@ const Home = ({ posts }) => (
     </div>
 
     <style jsx>{`
-      * {
-      }
       .color {
         background: #e9ecef;
       }
