@@ -117,7 +117,7 @@ const Home = ({ posts }) => (
                       {post.entrance}
                       <Link href={post.slug}>
                         <a className="card-text nav-link text-secondary">
-                          daha fazla oku
+                          -devamını oku-
                         </a>
                       </Link>
                     </h6>
