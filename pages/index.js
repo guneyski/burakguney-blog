@@ -64,7 +64,7 @@ const Home = ({ posts }) => (
             <h3 className="title text-center font-weight-bold">Burak Güney</h3>
             <p className="title text-center font-italic">Web Developer</p>
             <div className="text-center">
-              <Link href="https://www.linkedin.com/in/burak-g%C3%BCney-2889b8134/">
+              <Link href="https://www.linkedin.com/in/guneyburak/">
                 <a className="d-inline text-dark" target="_blank">
                   <FontAwesomeIcon
                     icon={faLinkedin}
@@ -72,7 +72,7 @@ const Home = ({ posts }) => (
                   ></FontAwesomeIcon>
                 </a>
               </Link>
-              <Link href="https://github.com/guneyski">
+              <Link href="https://github.com/burakguney">
                 <a className="d-inline text-dark ml-3" target="_blank">
                   <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
                 </a>
@@ -186,7 +186,7 @@ const Home = ({ posts }) => (
         border-radius: 50%;
       }
       .height {
-        max-height : 500px;
+        height : 450px;
       }
       div.sticky {
         position: -webkit-sticky; /* Safari */

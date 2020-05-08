@@ -46,7 +46,7 @@ const Nav = () => (
               </Link>
             </li>
             <li className="nav-item mr-5">
-              <Link href="https://www.linkedin.com/in/burak-g%C3%BCney-2889b8134/">
+              <Link href="https://www.linkedin.com/in/guneyburak/">
                 <a className="nav-link" target="_blank">
                   <FontAwesomeIcon
                     icon={faLinkedin}
@@ -58,7 +58,7 @@ const Nav = () => (
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="https://github.com/guneyski">
+              <Link href="https://github.com/burakguney">
                 <a className="nav-link" target="_blank">
                   <FontAwesomeIcon
                     icon={faGithub}
