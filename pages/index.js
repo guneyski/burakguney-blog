@@ -103,7 +103,7 @@ const Home = ({ posts }) => (
                     </h6>
                   </div>
 
-                  <div className="card-body">
+                  <div className="card-body height">
                     <img src={post.img} className="img rounded"></img>
                     <h3 className="card-title text-center">
                       <Link href={post.slug}>
@@ -185,7 +185,9 @@ const Home = ({ posts }) => (
         height: 50px;
         border-radius: 50%;
       }
-
+      .height {
+        max-height : 200px;
+      }
       div.sticky {
         position: -webkit-sticky; /* Safari */
         position: sticky;
