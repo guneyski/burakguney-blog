@@ -172,7 +172,7 @@ const Home = ({ posts }) => (
         background: #e9ecef;
       }
       .img {
-        height:300px;
+        max-height:300px;
       }
       .imgburak {
         max-width: 200px;
