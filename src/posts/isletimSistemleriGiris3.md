@@ -1,1 +1,1 @@
-#### BURAK GÜNEY
+#### Bilgisayar Sistemi Mimarisi
