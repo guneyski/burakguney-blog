@@ -176,7 +176,7 @@ const Home = ({ posts }) => (
         height: auto;
       }
       .imgburak {
-        max-width: 500px;
+        max-width: 200px;
         height: auto;
       }
       .avatar {
@@ -186,7 +186,7 @@ const Home = ({ posts }) => (
         border-radius: 50%;
       }
       .height {
-        max-height : 200px;
+        max-height : 500px;
       }
       div.sticky {
         position: -webkit-sticky; /* Safari */
