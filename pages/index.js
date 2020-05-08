@@ -176,7 +176,7 @@ const Home = ({ posts }) => (
         height: auto;
       }
       .imgburak {
-        max-width: 200px;
+        max-width: 500px;
         height: auto;
       }
       .avatar {
