@@ -85,47 +85,39 @@ const Home = ({ posts }) => (
     <div className="sticky">
       <Nav></Nav>
     </div>
-    <div className="container">
+    <div className="container mb-3">
       <div className="row">
-        <div className="col-md-12 p-0">
-          <div className="row m-0">
-            {posts.map(post => (
-              <div className="col-lg-4 p-1">
-                <div className="mb-2 rounded shadow bg-light">
-                  <div>
-                    <img
-                      src="burakguney.jpg"
-                      className="avatar mr-auto mt-2 ml-2"
-                    ></img>
-                    <span className="ml-2 font-weight-bold">@burakguney</span>
-                    <h6 className="d-block text-right mr-3 text-dark font-italic rounded">
-                      {post.date}
-                    </h6>
-                  </div>
+        {posts.map(post => (
+          <div className="col-lg-4 card">
+            <div>
+              <img
+                src="darth.jpg"
+                className="avatar mr-auto mt-2 ml-2"
+              ></img>
+              <span className="ml-2 font-weight-bold">@burakguney</span>
+              <h6 className="d-block text-right mr-3 text-dark font-italic rounded">
+                {post.date}
+              </h6>
+            </div>
+            <img src={post.img} className="img rounded"></img>
+            <div className="card-body">
 
-                  <div className="card-body height">
-                    <img src={post.img} className="img rounded"></img>
-                    <h3 className="card-title text-center">
-                      <Link href={post.slug}>
-                        <a className="card-text nav-link text-secondary">
-                          {post.title}
-                        </a>
-                      </Link>
-                    </h3>
-                    <h6 className="card-text">
-                      {post.entrance}
-                      <Link href={post.slug}>
-                        <a className="card-text nav-link text-secondary">
-                          -devamını oku-
-                        </a>
-                      </Link>
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            ))}
+              <h3 className="card-title text-center">
+                <Link href={post.slug}>
+                  <a className="card-text nav-link text-secondary">
+                    {post.title}
+                  </a>
+                </Link>
+              </h3>
+              <h6 className="card-text">
+                {post.entrance}
+                <Link href={post.slug}>
+                  ...devamını oku
+                </Link>
+              </h6>
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
     <div className="p-3 bg-dark text-light">
@@ -171,21 +163,18 @@ const Home = ({ posts }) => (
       .color {
         background: #e9ecef;
       }
-      .img {
-        max-height:300px;
-      }
       .imgburak {
         max-width: 200px;
         height: auto;
+      }
+      .img{
+        width:100%;
       }
       .avatar {
         vertical-align: middle;
         width: 50px;
         height: 50px;
         border-radius: 50%;
-      }
-      .height {
-        height : 450px;
       }
       div.sticky {
         position: -webkit-sticky; /* Safari */

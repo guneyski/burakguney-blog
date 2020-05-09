@@ -34,7 +34,7 @@ const Nav = () => (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto mr-5">
             <li className="nav-item mr-5">
-              <Link href="https://www.linkedin.com/in/burak-g%C3%BCney-2889b8134/">
+              <Link href="/hakkimda">
                 <a className="nav-link">
                   <FontAwesomeIcon
                     icon={faPortrait}
